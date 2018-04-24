@@ -1,6 +1,10 @@
-var prenom = prompt("Entrez votre prénom :");
+function Comment(){
+var prenom = prompt("Comment tu t'appeles ?");
 alert ("Bonjour," + prenom);
-var max ="10";
-var min ="0";
+//NombreDeCaracteres à ne pas dépasser est 10
+  if (prenom >= 10)}
+  return prompt ("Bonjour," + prenom){
+  }
+else (prenom <= 10){
 console.log ("Bonjour," + prenom)
-
+}
