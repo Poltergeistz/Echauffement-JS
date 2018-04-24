@@ -1,3 +1,2 @@
 function getRandomArbitrary(max, min){
-  return Math.random * (max, min)
-}
+  return Math.random * (9, 0)
