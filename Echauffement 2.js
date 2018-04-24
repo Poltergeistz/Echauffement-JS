@@ -1,13 +1,21 @@
-var a, d
-
-while (! a) a = prompt ("De quelle couleur est le cheval blanc d'Henry 4?")
-while (! d) d = prompt ("Combien y'a t il de 7 nains ?")
-if (blanc && 7){
-greeting = "bravo"}
-// true is blanc et 7 seulement blanc et 7
-return ("Bravo!")
-else {
-  greeting = "Essaye encore"
+function Question1("De quelle couleur est le cheval blanc d'Henry 4?")
+var a = blanc;
+if (a == blanc){
 }
-// return false
-return ("Essaye encore")
+var bravo = "Bravo!"
+prompt (bravo)
+else (a !== blanc){
+}
+var fail = "Essaye encore!"
+prompt (fail)
+
+function Question2("Combien y'a t il de 7 nains ?")
+var b = 7;
+if (b == 7){
+}
+var bravo = "Bravo!"
+prompt (bravo)
+else (b !== 7){
+}
+var fail = "Essaye encore!"
+prompt (fail)
