@@ -3,35 +3,36 @@ function Login(){
 var reponse = prompt ("Identifiant");
 // Crée une variable 
 if (reponse.toLowerCase() === 'léa@gmail.com'){
-  // Si reponse est écrit en BLANC - blanc - Blanc alors transforme en blanc (minuscules)
+  // Si reponse est écrite léa@gmail.com ou Léa@gmail.com alors transforme en (minuscules)
   console.log (reponse)
-  // Félicite Bravo, question suivante...
+  // 
   return (mdp());
-  // Affiche la question suivante
+  // Va a mot de passe
 }else{
   // Sinon
   alert ("Adresse Email non enregistrée")
-  // Annonce Essaye encore!
+  // Annonce Adresse Email non enregistrée
 return (Login());
-// retourne à la fonction Question1
+// retourne à la fonction Login
 }
 }
 
 function mdp(){
-  // Créé la fonction Question2
+  // Créé la fonction mdp
 var nombre = prompt ("Mot de passe");
-// Créé la variable nombre > pose la Question2 en popup Combien y'a t il de 7 nains ?
+// Créé la variable nombre > mot de passe
 if (nombre === '12345'){
-// Si nombre est égal à 7
+// Si nombre est strictement égal à '12345'
   alert ("Connecté");
+  //Affiche à l'user un message pour lui dire qu'il est connecté
   return ("connecté")
-  // Alors Félicite : Bravo tu as répondu à toutes les questions !
+  // connecté
 }else{
   // Sinon
 alert ("Mot de passe incorrect")
-// Annonce Essaye encore !
+// Annonce Mot de passe incorrect
 return (mdp());
-// retourne à la fonction 
+// retourne à la fonction mdp
 }
 }
 Login()
