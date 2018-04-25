@@ -1,3 +1,5 @@
 function Random (min, max){
-  var random = Math.random (0, 1);
-  return random
+  var random = Math.random();
+return random
+}
+Random()
