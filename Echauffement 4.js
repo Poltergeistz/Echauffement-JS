@@ -1,8 +1,11 @@
 function Random (min, max){
+  // Définit une fonction
   var random = Math.floor(Math.random()*(max - min));
+  // Définit une variable random qui donne un nombre entier aléatoire
 }
 function RandomOperator(min,max){
   var operator = Math.floor(Math.random()*(max - min))
+  //
   if (operator === 0){
     return "+"
   }
@@ -23,4 +26,4 @@ function RandomQuestion(min, max){
     else
       alert ("You sucks!")
 }
-Random()
+RandomQuestion(0,10)
