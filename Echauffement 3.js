@@ -23,7 +23,8 @@ var nombre = prompt ("Mot de passe");
 // Créé la variable nombre > pose la Question2 en popup Combien y'a t il de 7 nains ?
 if (nombre === '12345'){
 // Si nombre est égal à 7
-  return ("Connecté");
+  alert ("Connecté");
+  return ("connecté")
   // Alors Félicite : Bravo tu as répondu à toutes les questions !
 }else{
   // Sinon
