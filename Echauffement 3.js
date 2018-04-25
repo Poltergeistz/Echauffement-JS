@@ -7,13 +7,13 @@ if (reponse.toLowerCase() === 'léa@gmail.com'){
   console.log (reponse)
   alert ("")
   // Félicite Bravo, question suivante...
-  return (Question2());
+  return (mdp());
   // Affiche la question suivante
 }else{
   // Sinon
-  alert ("Essaye encore!")
+  alert ("Adresse Email non enregistrée")
   // Annonce Essaye encore!
-return (Question1());
+return (Login());
 // retourne à la fonction Question1
 }
 }
@@ -30,8 +30,8 @@ if (nombre === '1234'){
   // Sinon
 alert ("Mot de passe incorrect")
 // Annonce Essaye encore !
-return (Question2());
+return (mdp());
 // retourne à la fonction 
 }
 }
-Question1()
+Login()
