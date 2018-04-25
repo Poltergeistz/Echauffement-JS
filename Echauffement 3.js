@@ -2,7 +2,7 @@ function Login(){
   // Créé la fonction Login
 var reponse = prompt ("Identifiant");
 // Crée une variable 
-if (reponse.toLowerCase() === 'léa@gmail.com'){
+if (reponse.length > 4 && reponse.indexOf('@') != -1 && reponse == 'léa@gmail.com'){
   // Si reponse est écrite léa@gmail.com ou Léa@gmail.com alors transforme en (minuscules)
   console.log (reponse)
   // 
