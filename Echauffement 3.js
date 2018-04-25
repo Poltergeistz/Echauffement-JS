@@ -5,7 +5,6 @@ var reponse = prompt ("Identifiant");
 if (reponse.toLowerCase() === 'léa@gmail.com'){
   // Si reponse est écrit en BLANC - blanc - Blanc alors transforme en blanc (minuscules)
   console.log (reponse)
-  alert ("")
   // Félicite Bravo, question suivante...
   return (mdp());
   // Affiche la question suivante
@@ -22,7 +21,7 @@ function mdp(){
   // Créé la fonction Question2
 var nombre = prompt ("Mot de passe");
 // Créé la variable nombre > pose la Question2 en popup Combien y'a t il de 7 nains ?
-if (nombre === '1234'){
+if (nombre === '12345'){
 // Si nombre est égal à 7
   return ("Connecté");
   // Alors Félicite : Bravo tu as répondu à toutes les questions !
