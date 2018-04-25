@@ -1,7 +1,7 @@
 function Question1(){
   // Créé la fonction Question1
 var reponse = prompt ("De quelle couleur est le cheval blanc d'Henry 4?");
-// Crée une variable couleur avec compris minuscules et majuscules > Pose la question1 en popup De quelle couleur est le cheval blanc d'Henry 4?
+// Crée une variable reponse avec compris minuscules et majuscules > Pose la question1 en popup De quelle couleur est le cheval blanc d'Henry 4?
 if (reponse.toLowerCase() === 'blanc'){
   // Si reponse est écrit en BLANC - blanc - Blanc alors transforme en blanc (minuscules)
   console.log (reponse)
