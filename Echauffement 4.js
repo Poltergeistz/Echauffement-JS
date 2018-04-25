@@ -1,3 +1,3 @@
-function getRandomArbitrary(max, min){
-  var getRandomArbitrary (9, 0);
-  return Math.random * (max, min)
+function Random (min, max){
+  var random = Math.random (0, 1);
+  return random
