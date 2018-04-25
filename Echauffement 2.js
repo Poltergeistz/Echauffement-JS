@@ -1,21 +1,19 @@
-function Question1("De quelle couleur est le cheval blanc d'Henry 4?")
-var a = blanc;
-if (a == blanc){
+function Question1()
+var a = blanc
+var b =
+prompt ("De quelle couleur est le cheval blanc d'Henry 4?")
+if (a){
 }
-var bravo = "Bravo!"
-prompt (bravo)
-else (a !== blanc){
+else (b){
 }
-var fail = "Essaye encore!"
-prompt (fail)
+return ("Bien joué!")
 
-function Question2("Combien y'a t il de 7 nains ?")
-var b = 7;
-if (b == 7){
+function Question2
+var c = 7
+prompt ("Combien y'a t il de 7 nains ?")
+var d = 
+if (c)
+{else (b)
 }
-var bravo = "Bravo!"
-prompt (bravo)
-else (b !== 7){
-}
-var fail = "Essaye encore!"
-prompt (fail)
+return 
+
