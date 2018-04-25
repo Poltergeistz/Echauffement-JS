@@ -3,7 +3,7 @@ function Login(){
 var reponse = prompt ("Identifiant");
 // Crée une variable 
 if (reponse.length > 4 && reponse.indexOf('@') != -1 && reponse == 'léa@gmail.com'){
-  // Si reponse est écrite léa@gmail.com ou Léa@gmail.com alors transforme en (minuscules)
+  // Si reponse est écrite léa@gmail.com ou Léa@gmail.com alors transforme en (minuscules), nombres de caracteres supérieur à 4 et comporte '@'
   console.log (reponse)
   // 
   return (mdp());
